@@ -3,5 +3,7 @@ CREATE TABLE TRANSACTIONS (
   id SERIAL PRIMARY KEY NOT NULL ,
   commerce VARCHAR(100) NOT NULL,
   amount INTEGER NOT NULL,
-  type VARCHAR(100) NOT NULL
+  type VARCHAR(100) NOT NULL,
+  created_at varchar(30) NOT NULL,
+  user varchar(100) NOT NULL
 );
